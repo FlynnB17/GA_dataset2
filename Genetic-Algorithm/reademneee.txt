@@ -1,0 +1,39 @@
+http://cognitrn.psych.indiana.edu/rgoldsto/complex/genetic%20algorithms2.pdf
+Generation size:
+
+    Too large: you're going to have a long epoch time, restricting how many chances each individual has to explore it's neighbourhood.
+    Too small: you don't get good coverage of the search space.
+Mutation rate:
+
+    Too high: you risk the individuals "jumping" over a solution they were close to.
+    Too low: they're all going to get stuck in local minima.
+. Search terms: preselection, crowding, fitness sharing, incest prevention, overfitting, homogeneous
+
+
+Principles borrowed from evolution–
+Natural selection - survival of the fittest
+• fit individuals produce more progeny
+
+Department of Electrical and Computer Engineering (1997) Application of Genetic Algorithms to Data Mining[online].Wright-Patterson:Air Force Institute of Technology. Available from:https://webcache.googleusercontent.com/search?q=cache:Ujb1_t7NpHIJ:https://www.aaai.org/Papers/MAICS/1997/MAICS97-010.pdf+&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-b-ab[Accessed 22 November 2016]
+
+
+1.Núñez, E.N. () Modeling and simulation optimizing using evolutionary computation. [online]. [Accessed 17 November 2016].
+
+2.Xiang, Y.X., Gubian, G.C., Suomela, B.S. and Hoeng, J.H. (2013) Generalized Simulated Annealing for Global Optimization: The GenSA Package. The R Journal [online]. 5 (1), pp. 13-28. [Accessed 17 November 2016].
+
+3.Dorigo, M.D., Birattari, M.B., Blum, C.B., Clerc, M.C., Stutzle, T.S. and Winfield, A.F.T.W. (2008) Ant Colnoy Optimization and Swarm Inteligence [online]. : Springer. [Accessed 17 November 2016].
+
+
+
+allele - each of two or more alternative forms of a gene that arise by mutation and are found at the same place on a chromosome.
+
+
+
+Was from : http://www.scholarpedia.org/article/Genetic_algorithms
+Crossover in its simplest form (one-point crossover) is easily defined: Two chromosomes are lined up, a point along the chromosome is randomly selected, then the pieces to the left of that point are exchanged between the chromosomes, producing a pair of offspring chromosomes. 
+
+
+ GAs have
+been shown to solve problems that were considered
+intractable due to an excessively large search space
+(Punch et al. 1996)

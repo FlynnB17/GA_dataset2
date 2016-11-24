@@ -1,0 +1,24 @@
+starts
+initialise pop 
+  generate individuals with wildcards e.g. 01120 1
+add the datatxt to the data array
+
+compare the arrays and get the fitness of the current generation <---
+Compare the arrays and find a match PER INDIVIDUAL IF MATCH FOUND BREAK
+if peak fitness not reached 
+start tournament selection
+ start the crossover 
+    Mutate pop
+Review population repeat until conditions are met
+
+
+RULES aka genes - can have as many of them as you want but they help you classify the 
+entire problem 
+You grab the data and compare it to the data if it matches break
+and move to the next data
+So you're essentially checking if the data can get classified
+
+
+FITNESS FUNCTION
+IF the first 5 bits match and the 6th does not then move to the next data :'(
+
